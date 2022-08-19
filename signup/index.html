@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sign-up Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div id="left-page">
+                <div class="left-container">
+                    <img src="./leaf.jpg" class="leaf">
+
+                        <div class="overlay">
+                            <img src="./odin-lined.png" class="odinImg">
+                            <div class="overlayText">Odin</div>
+                        </div>
+                </div>
+                <p>Photo by <a href="#">Halle West</a> on <a href="#">Unsplash</a></p>
+            </div>
+
+            <div id="right-page">
+
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</p>
+                <form>
+                    <div id="names">
+                        <div class="nameContainer">
+                            <label for="firstName">First name: </label>
+                            <input type="text" id="firstName" placeholder="John"/>
+                        </div>
+
+                        <div class="lastContainer">
+                            <label for="lastName">Last name: </label>
+                            <input type="text" id="lastName" placeholder="Smith" />
+                        </div>
+                    </div>
+                
+                    <div id="info">
+                        <div class="emailContainer">
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" placeholder="johnSmith@example.com"/>
+                        </div>
+
+                        <div class="phoneContainer">
+                            <label for="phone">Phone number: </label>
+                            <input type="tel" id="number" placeholder="000-000-0000" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12">
+                        </div>
+
+                    </div>
+
+                    <div id="passInfo">
+                        <div class="passContainer">
+                            <label for="password">Password: </label>
+                            <input type="password" id="password" minlength="8" required/>
+                        </div>
+
+                        <div class="confirmContainer">
+                            <label for="confirm">Confirm Password: </label>
+                            <input type="password" id="confirm" minlength="8" required/>
+                        </div>
+
+                    </div>
+
+                    <div class="submitContainer">
+                        <input type="submit" id="submit" value="Submit"/>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

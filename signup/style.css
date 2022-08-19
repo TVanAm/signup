@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+}
+
+#left-page {
+    position: relative;
+    width: 40vw;
+    background-color: yellow;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 20rem;
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.leaf {
+    width: 100%;
+    height: 100vh;
+}
+
+.odinImg {
+    height: 70%;
+    padding: 50px 50px 50px 150px;
+}
+
+.overlayText {
+    color: white;
+    font-size: 50px;
+    padding: 100px;
+}
+
+#left-page p {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 15rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 1px 1px black;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 40px 20px;
+    flex-direction: column;
+    background-color: white;
+}
+
+input {
+    width: 80%;
+}
+
+label {
+    margin-left: 20px;
+}
+
+#right-page {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    width: 60vw;
+    justify-content: center;
+    background-color: wheat
+}
+
+
+#right-page p {
+    padding: 20px 10px 20px 10px;
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.lastContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#names {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.emailContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.phoneContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#submit {
+    width: 100%;
+    height: 100%; 
+    background-color: white;
+    border: 1px solid black;
+}
+
+#passInfo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.passContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.confirmContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.submitContainer {
+    width: 100%;
+    display: flex;
+}
